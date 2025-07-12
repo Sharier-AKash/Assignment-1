@@ -92,6 +92,7 @@ main section{
     max-width: 1140px;
 }
 .Productive-title{
+    text-align: center;
     font-size: 38px;
     font-weight: bold;
 }
@@ -154,4 +155,48 @@ main section{
 .card-date{
     font-size: 16;
     color: rgba(179, 179, 179, 1);
+}
+/* GetIn-Touch Style */
+.GetIn-Touch{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+.GetIn-Touch-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 97px;
+    font-weight: bold;
+    align-items: center
+
+}
+.GetIn-Touch form input[type="text"],.GetIn-Touch form input[type="email"]{
+    height: 60px;
+    width:450px ;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+form textarea{
+    height: 120px;
+    width:450px ;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+form label{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.Get-in-btn{
+     width:495px ;
+     height:60px;
+}
+.GetIn-Touch-RightSide input::placeholder,
+.GetIn-Touch-RightSide textarea::placeholder {
+  font-size: 20px;
 }
