@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <title>Assignment-1</title>
 </head>
@@ -11,13 +20,13 @@
 <body>
     <header class="header">
         <nav>
-            <h1 class="logo">LOGO</h1>
-            <a href=""><button class="btn">Sign Up</button></a>
+            <h1 class="logo inter-text">LOGO</h1>
+            <a href=""><button class="btn raleway-main-text">Sign Up</button></a>
         </nav>
         <div class="banner">
             <div>
-                <h3 class="banner-text main-text">Cool Dark UI Template for Webflow Agencies!</h3>
-                <button class="btn">Stay Focused</button>
+                <h3 class="banner-text main-text raleway-main-text">Cool Dark UI Template for Webflow Agencies!</h3>
+                <button class="btn raleway-main-text">Stay Focused</button>
             </div>
         </div>
     </header>
@@ -25,16 +34,18 @@
     <main>
         <section class="action">
             <div class="action-left">
-                <h3 class="main-text action-title">See It in Action</h3>
-                <h5 class="details">Explore the live preview and imagine your brand in this bold new look.</h5>
-                <button class="btn">Launch Live Preview</button>
+                <h3 class="main-text action-title raleway-main-text">See It in Action</h3>
+                <h5 class="details raleway-main-text">Explore the live preview and imagine your brand in this bold new
+                    look.</h5>
+                <button class="btn raleway-main-text">Launch Live Preview</button>
             </div>
             <img class="pic" src="Assets/wc-mini.png" alt="">
         </section>
 
-        <section class="Productive Productive-color">
+        <section class="Productive">
             <div class="Productive-container">
-                <h3 class="Productive-title text-centre">Joined Thousands of Productive Users</h3>
+                <h3 class="Productive-title raleway-main-text main-text">Joined Thousands of Productive
+                    Users</h3>
                 <div class="Productive-data ">
                     <div class="data">
                         <p>50K</p>
@@ -53,7 +64,7 @@
         </section>
 
         <section class="Feedback">
-            <h3>What our users say</h3>
+            <h3 class="main-text raleway-main-text">What our users say</h3>
             <div class="card-container">
                 <div class="card">
                     <img src="./Assets/icon-star.png" alt="">
@@ -106,27 +117,34 @@
             </div>
         </section>
         <section class="GetIn-Touch">
-            <h3 class="GetIn-Touch-title">Let’s Get in Touch</h3>
-            <div class="GetIn-Touch-RightSide">
+            <h3 class="title raleway-main-text main-text">Let’s Get in Touch</h3>
+            <div class="RightSide">
                 <form action="">
                     <label for="email">Email</label><br>
                     <input type="email" name="email" id="email" placeholder="example@email.com"><br>
                     <label for="name">Name</label><br>
                     <input type="text" name="name" id="name" placeholder="full name"><br>
                     <label for="message">Message</label><br>
-                    <textarea name="message" id="message" placeholder="write your message...." cols="30" rows="0"></textarea>
+                    <textarea name="message" id="message" placeholder="write your message...." cols="20"
+                        rows="0"></textarea>
                 </form>
-                <input class="btn-primary Get-in-btn" type="submit" value="Get in Touch">
+                <input class="btn Get-in-btn raleway-main-text" type="submit" value="Get in Touch">
             </div>
         </section>
-
-
-
-
     </main>
 
     <footer>
-
+        <section class="footer inter-text">
+            <h3>LOGO</h3>
+            <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can
+                bring your vision to life.</p>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">How it Works</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </section>
     </footer>
 </body>
 

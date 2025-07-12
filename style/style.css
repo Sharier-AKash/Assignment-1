@@ -1,13 +1,23 @@
-.header{
-    
+.header{  
     background-color: rgb(214, 221, 237, 38%);
     background-image: url(../Assets/Hero-bg.png);   
     background-position: center;
     background-repeat: no-repeat;
+}
 
+.raleway-main-text {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 .main-text{
     color:#252432;
+}
+
+.inter-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 .btn{
     background-color: #4E47FF;
@@ -47,8 +57,6 @@ nav{
 
 /* main */
 main{
-    /* background-color: rgb(214, 221, 237, 38%); */
-    max-height: 328px;
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -84,7 +92,7 @@ main section{
     border-radius: 48px;
     height: 330px;
 }
-/* Productive-section style */
+/* Productive */
 .Productive{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
@@ -113,7 +121,7 @@ main section{
     margin-bottom: 0;
     margin-top: 0;
 }
-/* Feedback Style */
+/* Feedback */
 .Feedback h3{
     font-size: 42px;
     font-weight: bold;
@@ -156,13 +164,13 @@ main section{
     font-size: 16;
     color: rgba(179, 179, 179, 1);
 }
-/* GetIn-Touch Style */
+/* GetIn-Touch */
 .GetIn-Touch{
     max-width: 1140px;
     display: flex;
     justify-content: space-between;
 }
-.GetIn-Touch-title{
+.title{
     color: rgba(0, 0, 0, 1);
     font-size: 97px;
     font-weight: bold;
@@ -176,7 +184,7 @@ main section{
     background-color: white;
     display: block;
     padding: 10px 20px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 form textarea{
     height: 120px;
@@ -185,7 +193,7 @@ form textarea{
     background-color: white;
     display: block;
     padding: 10px 20px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 form label{
     font-size: 18px;
@@ -196,7 +204,39 @@ form label{
      width:495px ;
      height:60px;
 }
-.GetIn-Touch-RightSide input::placeholder,
-.GetIn-Touch-RightSide textarea::placeholder {
+.RightSide input::placeholder,
+.RightSide textarea::placeholder {
   font-size: 20px;
+}
+/* footer */
+footer{
+    padding:130px 15px ; 
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+.footer{
+    max-width: 600px;
+    max-height: 230px;
+    margin: 0 auto;
+}
+footer h3{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 0;
+}
+footer p{
+    color: rgba(137, 135, 161, 1);
+    margin-top: 0;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
 }
